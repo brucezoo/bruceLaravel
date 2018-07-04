@@ -22,6 +22,7 @@ body {
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
+  width: 100%;
   padding-right: 0;
   padding-left: 0;
 }
@@ -39,7 +40,8 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 750px;
+  margin-top:51px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -49,7 +51,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 750px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -57,7 +59,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 750px;
 }
 
 
@@ -99,11 +101,11 @@ body {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
   }
   .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
   }
   .navbar-wrapper .navbar {
     padding-right: 0;

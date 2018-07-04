@@ -84,8 +84,8 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            {{--<img class="first-slide" src="{{asset('img/big1.jpg')}}" alt="First slide">--}}
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <img class="first-slide" src="{{asset('img/BFA5D04DD348179C1D51C81E7206935F.jpg')}}" alt="First slide">
+            {{--<img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">--}}
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Example headline.</h1>
@@ -95,7 +95,7 @@
             </div>
         </div>
         <div class="item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <img class="second-slide" src="{{asset('img/A51386C145F28E2B934A2BC3C387FCE8.jpg')}}" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Another example headline.</h1>
@@ -105,7 +105,7 @@
             </div>
         </div>
         <div class="item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <img class="third-slide" src="{{asset('img/6F40E868E46CB6A394D27DE5D045AB50.jpg')}}" alt="Third slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1>One more for good measure.</h1>
@@ -161,8 +161,14 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">鹊桥仙 <span class="text-muted">秦观</span></h2>
+            <p class="lead">纤云弄巧,飞星传恨,银汉迢迢暗渡.</p>
+
+            <p class="lead">金风玉露一相逢,便胜却人间无数.</p>
+
+            <p class="lead">柔情似水,佳期如梦,忍顾鹊桥归路?</p>
+
+            <p class="lead">两情若是久长时,又岂在朝朝暮暮.</p>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive center-block" src="{{asset('img/IMGZ4704.jpg')}}" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -174,8 +180,18 @@
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">摸鱼儿·雁丘词 <span class="text-muted">元好问</span></h2>
+            <p class="lead">问世间情为何物,直教人生死相许?</p>
+
+            <p class="lead">天南地北双飞客,老翅几回寒暑.</p>
+
+            <p class="lead">欢乐趣,离别苦,</p>
+
+            <p class="lead">就中更有痴儿女,君应有语.</p>
+
+            <p class="lead">渺万里层云,千山暮雪,只影向谁去?</p>
+
+            <p class="lead">横汾路,寂寞当年萧鼓,荒烟依旧平楚.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
             <img class="featurette-image img-responsive center-block" src="{{asset('img/891530684632_.pic.jpg')}}" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -186,11 +202,17 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">上邪</h2>
+            <p class="lead">上邪！</p>
+
+            <p class="lead">我欲与君相知,长命无绝哀.</p>
+
+            <p class="lead">山无棱,江水为竭,冬雷震震,</p>
+
+            <p class="lead">夏雨雪,天地合,乃敢与君绝！</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" src="{{asset('img/DEB155325688B1DFF9D6753EAF46B86B.jpg')}}" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
     </div>
 
